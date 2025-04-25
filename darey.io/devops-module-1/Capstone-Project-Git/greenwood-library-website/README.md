@@ -15,6 +15,29 @@ You will simulate the roles of two contributors: "Morgan" and "Jamie". Morgan wi
 - Gain experience in staging, committing, and pushing changes from both developers.
 
 - Create pull requests and merge them after resolving any potential conflicts.
-#
-# Step 0: Create a Repository on GitHub. Name it greenwood-library-website.
+## Step 0: Create a Repository on GitHub. Name it greenwood-library-website.
 ![main-push](img/main-push.png)
+  - Name it greenwood-library-website.
+    ![main-repo-tree](img/main-repo-tree.png)
+## Step 1: Create a Branch for Morgan
+   - Switch to a new branch named add-book-reviews.
+![morgan-checkout](img/morgan-checkout.png)
+## Step 2: Add a new file book_reviews.html to represent the Book Reviews Section
+![morgan-edit-bookreview](img/morgan-edit-bookreview.png)
+## Push the add-book-reviews branch to GitHub.
+![morgan-git push](img/morgan-git-push.png)
+## Step 3: Raise a PR for Morgan's work: 
+  - Change the branch from the main to add-book-reviews and click on Contribution
+  ![morgan-contribution](img/morgan-contribution.png)
+  - Select Open pull request
+  ![Morgan-open-pull](img/Morgan-open-pull-.png)
+  - Click on create pull request
+  ![morgan-create-pull](img/morgan-create-pull.png)
+## Step 4: Merge Morgan's work to the main branch: 
+  - Click on merge pull to merge to the main branch
+  ![morgan-merg-pull](img/morgan-merg-pull.png)
+  - Confirm the merge pull before merge to the main branch
+  ![morgan-confirm-merge](img/morgan-confirm-merge.png)
+  - Merge Morgan's work to the main branch
+  ![morgan-merged](img/morgan-merged.png)
+ 
