@@ -1,0 +1,76 @@
+/* css/style.css */
+
+body {
+    background-color: #00004d; /* Deep blue */
+    color: #ffff00;          /* Yellow */
+    font-family: sans-serif; /* Example font */
+    margin: 0; /* Remove default body margin */
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.3); /* Slightly transparent header */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent nav background */
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White links for better contrast on blue/black */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #ffff00; /* Yellow background on hover */
+    color: #00004d; /* Deep blue text on hover */
+}
+
+.container {
+    padding: 20px;
+    max-width: 960px; /* Limit content width */
+    margin: 20px auto; /* Center the container */
+    background-color: rgba(0, 0, 0, 0.3); /* Slightly transparent container */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Button Style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #000; /* Black text for contrast on gradient */
+    background: linear-gradient(to right, #ffffff, #008000); /* White to Green gradient */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Ensure it looks like a button even if it's an <a> */
+    transition: background 0.3s ease; /* Smooth transition on hover */
+}
+
+.button:hover {
+    background: linear-gradient(to right, #e0e0e0, #006400); /* Slightly darker gradient on hover */
+    color: #fff; /* White text on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.3); /* Slightly transparent footer */
+    color: #ffffff;
+}
