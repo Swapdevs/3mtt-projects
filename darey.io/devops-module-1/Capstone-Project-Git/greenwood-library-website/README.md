@@ -40,4 +40,25 @@ You will simulate the roles of two contributors: "Morgan" and "Jamie". Morgan wi
   ![morgan-confirm-merge](img/morgan-confirm-merge.png)
   - Merge Morgan's work to the main branch
   ![morgan-merged](img/morgan-merged.png)
+## Step 5: Create a Branch for Jamie
+  - Switch to a new branch named update-events.
+  ![jamie-checkout](img/jamie-checkout.png)
+  - Jamie pulled the latest changes from the repository.
+  ![jamie-pull](img/jamie-pull.png)
+## Step 6: Jamie update the "Events" page with new community events.
+![jamie-edit-event](img/jamie-edit-event.png)
+## Push the update-events branch to GitHub.
+![jamie-git-push](img/jamie-push.png)
+## Step 3: Raise a PR for Jamie's work: 
+  - Change the branch from the main to update-events and click on Contribution
+  ![jamie-contribute](img/jamie-contribute.png)
+  - Select Open pull request
+  ![Jamie-open-pull](img/Jamie-open-pull.png)
+  - Click on create pull request
+  ![jamie-create-pull](img/jamie-create-pull.png)
+## Step 4: Merge Jamie's work to the main branch: 
+  - Click on merge pull to merge to the main branch
+  ![jamie-merge-pull](img/jamie-merge-pull.png)
+  - Merge Jamie's work to the main branch
+  ![jamie-merged](img/jamie-merged.png)
  
