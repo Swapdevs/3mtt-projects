@@ -25,3 +25,21 @@
     ![change-permission](img/change-permission.png)
   - Here is the output confirming the user creation.
     ![script-run-create-users](img/script-run-create-users.png)
+  - To list all local users on a Linux system, you can filter users with UID ≥ 1000 (normal users)
+    ![ls-user-filter](img/ls-user-filter.png)
+- Create a folder for each user in the `/home directory`. For example `/home/mary`
+  - Use a Bash script to automate the creation of user directories
+    ![create-home-dirs](img/create-home-dirs.png)
+    ![bash-home-dirs](img/bash-home-dirs.png)
+  - Here is the output indicating that the directory was successfully created.
+    ![dirs-created](img/dirs-created.png)
+- Ensure that the group ownership of each created folder belongs to "devops"
+  - Verify the group ownership of the file or directory
+    ![group-ownership-issue](img/group-ownership-issue.png)
+  - Write a Bash script to automatically adjust group ownership for specific files or directories.
+    ![fix-group-ownership-bash](img/fix-group-ownership-bash.png)
+  - Here is the output indicating that the issue was successfully fixed.
+    ![fix-group-ownership-bash-output](img/fix-group-ownership-bash-output.png)
+  - Verify the group ownership of the file or directory again.
+    ![group-ownership-ls](img/group-ownership-ls.png)
+  
