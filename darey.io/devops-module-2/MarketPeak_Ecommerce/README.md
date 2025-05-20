@@ -52,6 +52,7 @@ This will set up a new, empty Git repository in the `MarketPeak_Ecommerce` direc
   * Create a Remote Repository on GitHub: Log into your GitHub account and create a new repository named "MarketPeak_Ecommerce" Leave the repository empty without initializing it with a README, .gitignore, or license.
   * Link Your Local Repository to GitHub: In your terminal, within your project directory, add the remote repository URL to your local repository configuration.
     ` git remote add origin https://github.com/your-git-username/MarketPeak_Ecommerce.git`
+    
     ![git remote add origin https://github.com/your-git-username/MarketPeak_Ecommerce.git](img/git-remote.png)
 
 ## 2. AWS Deployment
