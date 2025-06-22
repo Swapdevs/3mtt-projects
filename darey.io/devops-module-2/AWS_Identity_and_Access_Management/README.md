@@ -55,3 +55,44 @@
 10. Ensure to save these details securely for future reference.
     - Click on "Return to user list"
       ![Returntouserlist](img/Returntouserlist.png)
+
+## Part-2
+1. On the "User Groups" section, enter a name for the group.
+   - Click on "Create User Group."
+   - Then, proceed to the "Users" section.
+     ![UserGroups](img/)
+     ![CreateUserGroup](img/)
+   This is the user you've created.
+   - Now, let's proceed to the "Users" section.
+     ![userCreated](img/)
+2. Now, let's create a user named Jack.
+   ![createUser](img/)
+3. In the "Permissions" options, select "Add user to group."
+   - Then, in the "User groups" section,
+   - Choose the group you created named "development-team,".
+   - Click "Next."
+     ![Permissions](img/)
+4. Now, click on Create user
+   ![CreateUserJack](img/)
+   - You need to repeat the same process for user Ade. Create user Ade and add him to the user group "Development-team."
+     ![CreateUserAde](img/)
+5. Navigate to the "Policies" section and click on "Create Policy" to begin crafting a new policy.
+   ![CreatePolicy](img/)
+6. Choose the two services, EC2 and S3, from the available options.
+   ![EC2](img/)
+   ![S3](img/)
+7. Enter the desired policy name and proceed to click on the "Create policy" button.
+   ![desiredPolicyName](img/)
+8. Navigate to the "Users group" section and select the "Development-team" group.
+   ![UsersGroupSelect](img/)
+9. Proceed to the "Permissions" section and add the necessary permissions.
+    ![PermissionsSection](img/)
+10. Click on the attach policy
+    ![attachPolicy](img/)
+11. Select "Customer Managed Policy" as the policy type.
+   - Then choose the "development-policy" you created.
+   - Click "Attach Policy."
+     ![CustomerManagedPolicy](img/)
+   - The policy is now attached to the group, granting full permissions to EC2 and S3 for the group's users.
+     ![fullPermissions](img/)
+
