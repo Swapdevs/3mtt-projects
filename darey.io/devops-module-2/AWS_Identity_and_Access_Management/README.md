@@ -60,39 +60,46 @@
 1. On the "User Groups" section, enter a name for the group.
    - Click on "Create User Group."
    - Then, proceed to the "Users" section.
-     ![UserGroups](img/)
-     ![CreateUserGroup](img/)
+     ![UserGroups](img/UserGroups.png)
+     ![CreateUserGroup](img/CreateUserGroup.png)
    This is the user you've created.
    - Now, let's proceed to the "Users" section.
-     ![userCreated](img/)
+     ![userCreated](img/userCreated.png)
 2. Now, let's create a user named Jack.
-   ![createUser](img/)
+   ![createUser](img/createUser.png)
 3. In the "Permissions" options, select "Add user to group."
    - Then, in the "User groups" section,
    - Choose the group you created named "development-team,".
    - Click "Next."
-     ![Permissions](img/)
+     ![Permissions](img/Permissions.png)
 4. Now, click on Create user
-   ![CreateUserJack](img/)
+   ![CreateUserJack](img/CreateUserJack.png)
    - You need to repeat the same process for user Ade. Create user Ade and add him to the user group "Development-team."
-     ![CreateUserAde](img/)
+     ![CreateUserAde](img/CreateUserAde.png)
 5. Navigate to the "Policies" section and click on "Create Policy" to begin crafting a new policy.
-   ![CreatePolicy](img/)
+   ![CreatePolicy](img/CreatePolicy.png)
 6. Choose the two services, EC2 and S3, from the available options.
-   ![EC2](img/)
-   ![S3](img/)
+   ![EC2](img/EC2.png)
+   ![S3](img/S3.png)
 7. Enter the desired policy name and proceed to click on the "Create policy" button.
-   ![desiredPolicyName](img/)
+   ![desiredPolicyName](img/desiredPolicyName.png)
 8. Navigate to the "Users group" section and select the "Development-team" group.
-   ![UsersGroupSelect](img/)
+   ![UsersGroupSelect](img/UsersGroupSelect.png)
 9. Proceed to the "Permissions" section and add the necessary permissions.
-    ![PermissionsSection](img/)
+    ![PermissionsSection](img/PermissionsSection.png)
 10. Click on the attach policy
-    ![attachPolicy](img/)
+    ![attachPolicy](img/attachPolicy.png)
 11. Select "Customer Managed Policy" as the policy type.
    - Then choose the "development-policy" you created.
    - Click "Attach Policy."
-     ![CustomerManagedPolicy](img/)
+     ![CustomerManagedPolicy](img/CustomerManagedPolicy.png)
    - The policy is now attached to the group, granting full permissions to EC2 and S3 for the group's users.
-     ![fullPermissions](img/)
+     ![fullPermissions](img/fullPermissions.png)
 
+
+## Project reflection:
+
+   - Understanding IAM: IAM serves as the security foundation for AWS resources, controlling access and permissions.
+   - Security Importance: IAM ensures data protection, compliance, and prevents unauthorised access.
+   - Policy Creation: Participants learned to craft IAM policies to regulate resource access effectively.
+   - Practical Application: Hands-on exercises equipped participants to set up IAM users, groups, and roles, enhancing their real-world IAM implementation skills.
