@@ -22,36 +22,36 @@
 
 1. Navigate to the AWS Management Console.
    - Use the search bar to locate the Identity and Access Management (IAM) service.
-     ![AWS Management Console](img/)
+     ![AWS Management Console](img/AWSManagementConsole.png)
 2. Now, on the IAM dashboard, navigate to the left sidebar and click on "Policies."
    - From there, search for "EC2" and select "AmazonEC2FullAccess" from the list of policies.
    - Proceed by clicking on "Create policy" to initiate the policy creation process.
-     ![AmazonEC2FullAccess](img/)
+     ![AmazonEC2FullAccess](img/AmazonEC2FullAccess.png)
 3. Now, select all EC2 actions.
-   ![EC2 actions](img/)
+   ![EC2 actions](img/EC2Actions.png)
 4. Tick "All resources" and click "Next."
-   ![Allresources](img/)
+   ![Allresources](img/Allresources.png)
 5. Now, click on Create policy
-   ![createPolicy](img/)
+   ![createPolicy](img/createPolicy.png)
    - This is the policy we have created.
-     ![createdPolicy](img/)
+     ![createdPolicy](img/createdPolicy.png)
 6. Now, proceed to the "Users" section, and select the option to "Create User."
-   ![UsersSelect](img/)
+   ![UsersSelect](img/UsersSelect.png)
 7. Enter the desired username for the user.
    - Then select the option "Provide user access to the AWS Management Console" if access to the web-based console interface is required.
    - Proceed to set up a password for the user.
    - Check the box "Users must create a new password at next sign-in" if allowing users to change their password upon first sign-in is preferred.
-     ![CreateNewUser](img/)
+     ![CreateNewUser](img/CreateNewUser.png)
 8. Select "Attach policy directly" and navigate to "Filter customer managed policies."
    - Choose the policy you created named "policy_for_eric."
    - Then proceed by clicking "Next."
-     ![ChoosePolicy](img/)
+     ![ChoosePolicy](img/ChoosePolicy.png)
     #### Note- AWS policies:
      - Managed Policies: Made by AWS, used by many
      - Customer Managed Policies: You make and manage them.
      - Inline Policies: Made for one specific thing.
 9. Next, click on "Create User."
-    ![CreateUser](img/)
+    ![CreateUser](img/CreateUser.png)
 10. Ensure to save these details securely for future reference.
     - Click on "Return to user list"
-      ![Returntouserlist](img/)
+      ![Returntouserlist](img/Returntouserlist.png)
